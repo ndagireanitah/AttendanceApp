@@ -1,0 +1,55 @@
+<resources>
+    <string-array name="sector_names">
+        <item>Cambridge</item>
+        <item>National</item>
+    </string-array>
+
+    <string-array name="cambridge_classes">
+        <item>Year 1</item>
+        <item>Year 2</item>
+        <item>Year 3</item>
+        <item>Year 4</item>
+        <item>Year 5</item>
+        <item>Year 6</item>
+
+        <!-- Add more Cambridge classes as needed -->
+    </string-array>
+    <string-array name="terms">
+        <item>term 1</item>
+        <item>term 2</item>
+        <item>term 3</item>
+    </string-array>
+    <string-array name="sector_array">
+        <item>Sector 1</item>
+        <item>Sector 2</item>
+        <item>Sector 3</item>
+        <item>Sector 4</item>
+        <!-- Add more sectors as needed -->
+    </string-array>
+<string-array name="class_streams">
+<item>stream 1 1</item>
+<item>stream 2</item>
+<item>stream 3</item>
+</string-array>
+
+    <string-array name="national_classes">
+        <item>Primary 1</item>
+        <item>Primary 2</item>
+        <item>Primary 3</item>
+        <item>Primary 4</item>
+        <item>Primary 5</item>
+        <item>Primary 6</item>
+        <item>Primary 7</item>
+
+        <!-- Add more National classes as needed -->
+    </string-array>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>

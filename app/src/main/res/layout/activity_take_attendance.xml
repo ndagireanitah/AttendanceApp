@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TakeAttendance">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/dateCardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            app:cardCornerRadius="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/textViewDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Select Date"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/purple_700"
+                    />
+
+                <DatePicker
+                    android:id="@+id/datePicker"
+                    android:layout_width="869dp"
+                    android:layout_height="230dp"
+                    android:layout_below="@+id/textViewDate"
+                    android:layout_marginTop="8dp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/sectorCardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dateCardView"
+            android:layout_margin="16dp"
+            app:cardCornerRadius="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/textViewSector"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:text="Select Sector"
+                    android:textSize="30sp"
+                    android:textColor="@color/purple_500"
+                    />
+
+                <Spinner
+                    android:id="@+id/sectorSpinner"
+                    android:layout_width="956dp"
+                    android:layout_height="61dp"
+                    android:layout_below="@+id/textViewSector"
+                    android:layout_marginTop="8dp"
+                    android:contentDescription="Select student Curriculum"
+                    android:hint="Select student Curriculum" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/classCardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sectorCardView"
+            android:layout_margin="16dp"
+            app:cardCornerRadius="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/textViewClass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45sp"
+                    android:text="Select Class Name"
+                    android:textSize="30sp"
+                    android:textColor="@color/purple_500"
+                    />
+
+                <Spinner
+                    android:id="@+id/classSpinner"
+                    android:layout_width="956dp"
+                    android:layout_height="74dp"
+                    android:layout_below="@+id/textViewClass"
+                    android:layout_marginTop="10dp"
+                    android:contentDescription="Select a className"
+                    android:hint="Select a className" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <Button
+            android:id="@+id/buttonStudentRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student Registration"
+            android:layout_below="@+id/classCardView"
+            android:layout_marginTop="8dp"
+            android:textSize="25sp"
+
+
+            />
+    </RelativeLayout>
+</ScrollView>
+

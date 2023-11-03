@@ -1,0 +1,10 @@
+<!-- res/drawable/curved_background.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="14dp" android:right="16dp" android:top="16dp" android:bottom="32dp" android:height="180dp"
+        android:width="160sp"> <!-- Add padding values as needed -->
+        <shape android:shape="rectangle">
+            <corners android:radius="30dp" /> <!-- Adjust the radius to control the curvature -->
+            <solid android:color="@color/orange" />
+        </shape>
+    </item>
+</layer-list>

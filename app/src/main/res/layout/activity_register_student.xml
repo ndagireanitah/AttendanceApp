@@ -1,0 +1,51 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".RegisterStudentActivity">
+
+    <EditText
+        android:id="@+id/editTextStudentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Student Name"
+        android:textSize="25sp"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/editTextStudentNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Student Number"
+        android:textSize="25sp"
+        android:inputType="text"
+        />
+
+    <Spinner
+        android:id="@+id/classStreamSpinner"
+        android:layout_width="381dp"
+        android:layout_height="58dp"
+        android:hint="Select Class Stream"
+        android:contentDescription="Class Stream Spinner" />
+
+    <Spinner
+        android:id="@+id/termSpinner"
+        android:layout_width="378dp"
+        android:layout_height="63dp"
+        android:hint="Select Term"
+        android:contentDescription="Term Spinner" />
+
+    <Button
+        android:id="@+id/buttonRegisterStudent"
+        android:layout_width="378dp"
+        android:layout_height="89dp"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:text="Register Student"
+        android:textSize="25sp" />
+</LinearLayout>
